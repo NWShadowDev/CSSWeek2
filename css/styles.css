@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+#top {
+  background-image: url('../img/people1.jpg');
+  height: 500px;
+  width: 100%;
+}
+#left {
+  background-image: url('../img/people3.jpg');
+  height: 200px;
+  width: 50%;
+  float: left;
+}
+
+#right {
+  background-image: url('../img/people2.jpg');
+  background
+  height: 200px;
+  width: 50%;
+  float: right;
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (min-width: 924px) and (min-width: 1300px) {
+  #top {
+    width: 50%;
+  }
+  #left, #right {
+    width: 50%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    padding: 0;
+  }
+  #first, #second {
+    width: 50%;
+  }
+  #first img {
+    width: 100%;
+  }
+  div#first.col-sm-3 {
+    padding:0;
+  }
+  div#second.col-sm-3 {
+    padding:0;
+  }
+}
+
+@media screen and (max-width: 525px) and (min-width: 320px){
+  #left {
+    position: relative;
+    padding-left: 20px;
+    width: 100%;
+  }
+  #right {
+    position: relative;
+    width: 100%;
+  }
+  #topText {
+    bottom: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  div#left.col-sm-6 {
+    padding:0;
+  }
+  div#right.col-sm-6 {
+    padding:0;
+    width: 100%;
+  }
+}
