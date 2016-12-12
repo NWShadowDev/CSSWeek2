@@ -12,19 +12,25 @@ body {
 
 #top {
   background-image: url('../img/people1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 500px;
   width: 100%;
 }
 #left {
   background-image: url('../img/people3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 200px;
   width: 50%;
   float: left;
 }
 
 #right {
-  background-image: url('../img/people2.jpg');
-  background
+  background-image: url('../img/people4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 200px;
   width: 50%;
   float: right;
