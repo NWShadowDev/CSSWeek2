@@ -17,6 +17,13 @@ div.text {
   text-align: center;
 }
 
+.row .col-sm-6 {
+  padding: 0;
+  width: auto;
+  float: left;
+  font-family: sans-serif;
+}
+
 #top {
   background-image: url('../img/people1.jpg');
   background-repeat: no-repeat;
@@ -47,22 +54,12 @@ div.text {
   position: relative;
 }
 
-@media screen and (max-width: 1024px){
-  /*#top {
-    width: 50%;
-  }
-  #left, #right {
-    width: 50%;
-    height: 250px;
-  }*/
-}
-
 @media screen and (min-width: 924px) and (min-width: 1300px) {
   #top {
-    width: 50%;
+    max-width: 50%;
   }
   #left, #right {
-    width: 50%;
+    max-width: 50%;
     height: 250px;
   }
 }
@@ -72,10 +69,7 @@ div.text {
     padding: 0;
   }
   #first, #second {
-    width: 50%;
-  }
-  #first img {
-    width: 100%;
+    max-width: 50%;
   }
   div#first.col-sm-3 {
     padding:0;
@@ -88,7 +82,6 @@ div.text {
 @media screen and (max-width: 525px){
   #left {
     position: relative;
-    /*padding-left: 20px;*/
     width: 100%;
   }
   #right {
