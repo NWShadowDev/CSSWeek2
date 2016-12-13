@@ -74,12 +74,6 @@ div.text {
   #first, #second {
     width: 50%;
   }
-  div#first.col-sm-6 {
-    padding:0;
-  }
-  div#second.col-sm-6 {
-    padding:0;
-  }
 }
 
 @media screen and (max-width: 525px){
@@ -96,13 +90,6 @@ div.text {
     text-align: center;
     display: block;
     margin: 0 auto;
-  }
-  div#left.col-sm-6 {
-    padding:0;
-  }
-  div#right.col-sm-6 {
-    padding:0;
-    width: 100%;
   }
 }
 
