@@ -10,21 +10,7 @@ body {
   background-color: #000;
 }
 
-.navbar-brand img {
-  position: relative;
-  width: 50%;
-  float: left;
-  left: 10%;
-}
 
-.navbar-brand #brand1 {
-  position: absolute;
-}
-
-.navbar-collapse i {
-  position: relative;
-  top: 10px;
-}
 
 div.text {
   background: yellow;
@@ -38,28 +24,37 @@ div.text {
   background-position: center;
   height: 500px;
   width: 100%;
+  position: relative;
 }
 
 #left {
   background-image: url('../img/people3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 300px;
   width: 50%;
   float: left;
+  position: relative;
 }
 
 #right {
   background-image: url('../img/people3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 300px;
   width: 50%;
   float: right;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px){
-
+  /*#top {
+    width: 50%;
+  }
+  #left, #right {
+    width: 50%;
+    height: 250px;
+  }*/
 }
 
 @media screen and (min-width: 924px) and (min-width: 1300px) {
@@ -90,7 +85,7 @@ div.text {
   }
 }
 
-@media screen and (max-width: 525px) and (min-width: 320px){
+@media screen and (max-width: 525px){
   #left {
     position: relative;
     /*padding-left: 20px;*/
