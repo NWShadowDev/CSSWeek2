@@ -10,7 +10,10 @@ body {
   background-color: #000;
 }
 
-
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
 
 div.text {
   background: yellow;
@@ -69,12 +72,12 @@ div.text {
     padding: 0;
   }
   #first, #second {
-    max-width: 50%;
+    width: 50%;
   }
-  div#first.col-sm-3 {
+  div#first.col-sm-6 {
     padding:0;
   }
-  div#second.col-sm-3 {
+  div#second.col-sm-6 {
     padding:0;
   }
 }
@@ -100,5 +103,15 @@ div.text {
   div#right.col-sm-6 {
     padding:0;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #top {
+    max-width: 50%;
+  }
+  #left, #right {
+    max-width: 50%;
+    height: 250px;
   }
 }
